@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="csstab12.css">
+<script>
+
+function calcCI(p,n,r){
+						let amount=p*Math.pow((1+(r/100)),n);
+						let ci=amount-p;						
+                        return ci;					  
+					  }	
+</script>    
+</head>
+
+
+<body>
+<script>
+alert("This is a simple program to calculate Compound Interest.")
+alert("NOTE: Only the cases where interest is compounded yearly and the time is in multiples of year is CONSIDERED!")
+ 
+let P=parseInt(prompt("Please Enter the Principle Amount"));
+let R=parseInt(prompt("Enter the rate of interest in % per-annum"));
+let N=parseInt(prompt("Enter the period in years"));
+let CI=calcCI(P,R,N);
+
+
+var temp="<table id=tab12><tr><th colspan=3><h2>------------------------------------------------------------<br>*******Calculate Compound Interest*******<br>------------------------------------------------------------</h2></th></tr>";
+
+document.write(temp)
+document.write("<tr><td>Principal         </td><td>-</td><td>"+P+ "</td></tr>");
+document.write("<tr><td>Rate of Interest  </td><td>-</td><td>"+R+ "</td></tr>");
+document.write("<tr><td>Period            </td><td>-</td><td>"+N+ "</td></tr>");
+document.write("<tr><td>Compound Interest </td><td>-</td><td>"+CI+"</td></tr></table>");
+
+</script>
+
+
+
+</body>
+</html>

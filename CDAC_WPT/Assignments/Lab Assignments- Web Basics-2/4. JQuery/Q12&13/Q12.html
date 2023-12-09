@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<style>
+	
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<h3>Members of the Group are</h3>
+		<ol id="list">
+		</ol>
+	<button>Populate List</button>	
+	<script>
+		var names=["John","Steve","Ben","Damon","Ian"]
+		$(document).ready(function()
+		{
+			$("button").click(function()
+			{
+				names.forEach(function(currValue)
+				{
+				 $("#list").append("<li>"+currValue+"</li>");	
+				});	
+		
+			});	
+		});
+	</script>
+	</body>
+</html>

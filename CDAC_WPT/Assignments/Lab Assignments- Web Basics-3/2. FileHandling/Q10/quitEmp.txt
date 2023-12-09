@@ -1,0 +1,9 @@
+Employee 1004->Monika resigned on function getDate() { [native code] }-function getMonth() { [native code] }-function getFullYear() { [native code] }
+Employee 1007->Joey resigned on function getDate() { [native code] }-function getMonth() { [native code] }-function getFullYear() { [native code] }
+Employee 1010->Penny resigned on function getDate() { [native code] }-function getMonth() { [native code] }-function getFullYear() { [native code] }
+Employee 1004->Monika resigned on 1625367828744
+Employee 1007->Joey resigned on 1625367828744
+Employee 1010->Penny resigned on 1625367828745
+Employee 1004->Monika resigned on Sun Jul 04 2021 08:35:30 GMT+0530 (India Standard Time)
+Employee 1007->Joey resigned on Sun Jul 04 2021 08:35:30 GMT+0530 (India Standard Time)
+Employee 1010->Penny resigned on Sun Jul 04 2021 08:35:30 GMT+0530 (India Standard Time)

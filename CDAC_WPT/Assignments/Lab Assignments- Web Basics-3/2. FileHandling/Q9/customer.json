@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Tukaram",
+        "address" : "New York",
+        "ph_no": "9891458973",
+        "credit_rating": 9.3
+    },
+    {
+        "name": "Sakharam",
+        "address" : "London",
+        "ph_no": "8979113549",
+        "credit_rating": 6.2
+    },
+    {
+        "name": "Pandurang",
+        "address" : "Paris",
+        "ph_no": "7894261388",
+        "credit_rating": 10
+    }
+]

@@ -1,0 +1,17 @@
+.div1{
+	  width:500px;	
+      border:solid black 2px;
+	  padding:15px	
+	 }
+h2{margin:10px}	 
+table{
+	  border-collapse:separate;	
+	  margin:-5px 10px -5px 10px  
+	}	
+[type=number]{
+				width:100%;
+			}
+[type=submit]{
+			    margin:20px 0px 10px 0px  ;
+			}
+	 

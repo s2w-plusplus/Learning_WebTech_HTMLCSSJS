@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+function myfunction(){
+					 var radius = parseInt(document.getElementById("Q23text").value);
+					 var area=Math.PI*radius*radius;
+					 var circ=Math.PI*radius*2;
+		            document.getElementById("dispArea").innerHTML="Area: "+area;
+					document.getElementById("dispCircum").innerHTML="<br>Circumference: "+circ;
+					}
+</script>
+</head>
+
+
+<body>
+
+<form onsubmit="return false">
+	<label for="Q23text">Enter Radius: <input type="text" name="Q23text" id="Q23text" autofocus></label>
+	<br>
+	<input type="submit" onclick="myfunction()" style="margin:10px 0px 10px 0px" value="display">
+</form>
+
+<span id="dispArea"></span>
+<span id="dispCircum"></span>
+
+
+</body>
+</html>

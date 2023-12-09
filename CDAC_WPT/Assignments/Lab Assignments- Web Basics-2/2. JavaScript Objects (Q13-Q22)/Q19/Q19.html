@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="Q19.css">
+<script> 
+function Emp(id,nm,sal)
+				{
+				this.empid=id;
+				this.empname=nm;
+				this.salary=sal;
+				}
+</script>
+</head>
+
+<body>
+
+
+<script>
+
+
+var objarr=new Array();
+
+for(let i=1;i<=4;i++)
+{
+objarr.push(new Emp(parseInt(prompt("Enter the id of Employee "+i)), prompt("Enter the name of Employee "+i),parseInt(prompt("Enter the salary of Employee "+i))  ));
+}
+
+document.write("<table id=\"tab19\"><tr><th colspan=4><h2>------------------------------------------------------------<br>*******Employee Information*******<br>------------------------------------------------------------</h2></th></tr><tr><td>Sr.No</td><td>Employee ID</td><td>Employee Name</td><td>Salary</td></tr>");
+
+for(i in objarr)
+{
+document.write("<tr><td>"+i+"</td><td>"+objarr[i].empid+"</td><td>"+objarr[i].empname+"</td><td>"+objarr[i].salary+"</td></tr>");
+}
+document.write("</table>");
+
+
+  
+</script>
+
+</body>
+</html>

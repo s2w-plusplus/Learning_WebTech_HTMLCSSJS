@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="12aStyle.css">
+	<link rel="stylesheet" href="12bStyle.css" >
+	<link rel="stylesheet" href="12cStyle.css" >
+	<link rel="stylesheet" href="12dStyle.css" >
+<head>
+
+</head>
+<body>
+<br>
+<table border="solid black" cellspacing="0">
+	<tr>
+		<td>12.a</td>
+		<td>12.b</td>
+	</tr>
+	<tr>
+		<td>
+		<div class="container12A">
+			<header class="header12A">Create an Account</header>
+			<hr class="ruler12A">
+			<form class="form12A">
+				<input type="text" placeholder="Name" class="ip12A"><br>
+				<input type="tel" placeholder="Phone Number" class="ip12A"><br>
+				<input type="email" placeholder="E-mail" class="ip12A"><br>
+				<input type="password" placeholder="Password" class="ip12A"><br>
+				<div class="check12A" >
+					<input type="checkbox"> I agree to the 
+										<span class="hlink12A">terms and conditions</span>and 
+										<span class="hlink12A">privacy policy</span>
+				</div>						
+				<button class="button12A">Create Account</button>
+			</form>
+		</div>
+		</td>
+		<td>
+			<div class="container12B">
+				<header class="header12B">Create your Account</header>
+				<hr class="ruler12B">
+				<table class="table12B">
+					<tbody class="tbody12B">
+						<tr>
+							<td>Name</td>
+							<td><input type="text" class="ip12B" placeholder="Enter your name"></td>
+						</tr>
+						<tr>
+							<td>Email</td>
+							<td><input type="email" class="ip12B" placeholder="xyz@domain.com"></td>
+						</tr>
+						<tr>
+							<td>Username</td>
+							<td><input type="text" class="ip12B" placeholder="Enter username"></td>
+						</tr>
+						<tr>
+							<td>Password</td>
+							<td><input type="text" class="ip12B" placeholder="Enter your password"></td>
+						</tr>
+						<tr>
+							<td>Password Again</td>
+							<td><input type="text" class="ip12B" placeholder="Confirm password"></td>
+						</tr>
+					</tbody>
+				</table>
+				<button id="myButton">Create Account</button>
+				<div><hr style="display:inline-block;width:45%;"/>OR<hr style="display:inline-block;width:45%;"/></div>
+					
+				<button id="fblink">Facebook</button>
+				<button id="tweetlink">Twitter</button>
+			</div>	
+		</td>
+	</tr>
+	<tr>
+		<td>12.c</td>
+		<td>12.d</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="container12C">
+			<header class="header12C">Create Account</header>
+			<table class="table12C">
+				<tr>
+					<td>
+						<span class="span12C">First Name*</span><br>
+						<input type="text" placeholder="Enter your first name" required class="ip12C">
+					</td>
+					<td>
+						<span class="span12C">Last Name</span><br>
+						<input type="text" placeholder="Enter your last name" class="ip12C">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<span class="span12C">Email*</span><br>
+						<input type="email" style="width:80%" placeholder="Enter your email" required class="ip12C" id="email">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span class="span12C">Password*</span><br>
+						<input type="password" placeholder="Enter your password" required class="ip12C">
+					</td>
+					<td>
+						<span class="span12C">Confirm Password*</span><br>
+						<input type="password" placeholder="Confirm password" required class="ip12C">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span class="span12C">Gender</span><br>
+						<input class="ip12C" type="radio" name="gen">Male
+						<input class="ip12C" type="radio" name="gen">Female
+					</td>
+					<td>
+						<span class="span12C">Hobbies</span><br>
+						<input class="ip12C" type="checkbox">Music
+						<input class="ip12C" type="checkbox">Sports
+						<input class="ip12C" type="checkbox">Travel
+						<input class="ip12C" type="checkbox">Movies
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span class="span12C">Source of Income</span><br>
+						<input type="text" list="income" class="ip">
+							<datalist id="income">
+								<option>Employed</option>
+								<option>Business</option>
+							</datalist>           
+					</td>
+					<td>
+						<span class="span12C">Income</span><br>
+						<input type="range" style="width:210px">
+						<button id="rangeBtn">20K</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span class="span12C">Upload Profile Picture</span><br>
+						<input type="file">
+					</td>
+					<td>
+						<span class="span12C">Age</span><br>
+						<input type="number"  min="18" max="100" value="18" class="ip12C">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<span class="span12C">Bio</span><br>
+						<textarea cols="50" rows="5" id="bio"></textarea>
+					</td>
+				</tr>
+			</table>
+
+			<footer class="footer12C">
+				<button id="Btn12C">Create</button>
+			</footer>
+			</div>
+		</td>
+		<td>
+
+			<div class="container12D">
+				<header class="header12D">Get In Touch</header>
+				<p>
+					<i>Fill out the super swanky HTML5 contact form below to get in touch with us! Please provide us much information as possible for us to help ypu with your enquiry.</i>		
+				</p>
+				
+				<form>
+						<label>Name: <span class="span12d">*</span><br>
+						<input class="ip12D" type="text" name="name">
+						</label><br>
+					
+				
+						<label>Email: <span class="span12d">*</span><br>
+						<input class="ip12D" type="text" name="name" placeholder="johndoe@example.com">
+						</label><br>
+						
+					
+						<label>Telephone:<br>
+						<input class="ip12D" type="text" name="name" placeholder=" ">
+						</label><br>
+						
+						<label class="label">Enquiry:<br>
+						<select class="drop12D" >
+						  <option value="General">General</option>
+						  <option value="Sales">Sales</option>
+						  <option value="Technical">Technical</option>
+						  <option value="Customer">Customer</option>
+						  <option value="Career">Partner</option>
+						</select>
+						</label><br>
+						
+					 
+						<label class="label">Message: <span class="span12d">*</span><br>
+						<textarea class="txt12D" cols="50" rows="20" placeholder="Your message must be greater than 20 characters."></textarea>
+						</label><br>
+					
+						<footer class="footer12D">
+							<span class="span12d">*<span><small></small> <i>indicate a required field.</i></small>
+							<div class="wrapper12D">
+								<input class="Btn12D" type="submit" value="Holla!">
+							</div>	
+						</footer>
+					 
+						
+					  
+				</form>
+			</div>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>   
+   
+  

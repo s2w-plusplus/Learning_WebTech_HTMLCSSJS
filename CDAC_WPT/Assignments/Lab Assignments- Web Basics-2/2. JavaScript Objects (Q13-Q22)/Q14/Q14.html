@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+
+<html>
+<script>
+function getWeekDay(d)
+{
+var shortnm=["SU","MN","TU","WE","TH","FR","ST"];
+return (shortnm[d.getDay()])
+
+}
+
+</script>
+<head>
+
+</head>
+<body>
+<script>
+
+var d=new Date( parseInt(prompt("Enter Year")), parseInt(prompt("Enter Month(0-11)")), parseInt(prompt("Enter Date"))); 
+alert(getWeekDay(d));
+</script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,48 @@
+<html>
+<head>
+	<script src="Q25.js"></script>
+	<style>
+		.div1{
+			  width:800px;	
+			  border:solid black 2px;
+					
+			  padding:10px 10px 10px 20px; 
+			 }
+		input[type=radio]{
+							margin-left:35px;			
+						}
+		input[type=radio]:first-child{
+					      margin-left:5px
+						}		
+		input[type=text]{
+							margin:10px;			
+						}
+		input[type=submit]{
+							margin-top:30px;			
+						}
+	</style>
+</head>
+<body>
+<div class="div1">
+	<form  onsubmit="return masterfn()">
+		<label for="25txt1">Enter String:<input type="text"  name="25txt1" id="25txt1" required></label><br>
+		<label for="25txt2">Enter Substring:<input type="text"  name="25txt2" id="25txt2"></label><br>
+		<label for="25txt3">Replace with String:<input type="text" name="25txt3" id="25txt3"></label><br><br>
+	
+		<label for="25radio1"><input type="radio" name="radio25" id="25radio1" onclick="Event1()">Search substring in main string</label>
+		<label for="25radio2"><input type="radio" name="radio25" id="25radio2" onclick="Event2()">To UpperCase</label>
+		<label for="25radio3"><input type="radio" name="radio25" id="25radio3" onclick="Event3()">To LowerCase</label>
+		<label for="25radio4"><input type="radio" name="radio25" id="25radio4" onclick="Event4()">Trim Spaces</label>
+		<label for="25radio5"><input type="radio" name="radio25" id="25radio5" onclick="Event5()">Concatenate</label>
+		<label for="25radio6"><input type="radio" name="radio25" id="25radio6" onclick="Event6()">Replace</label><br>
+	
+		<input type="submit" value="Submit Query" name="submit25">
+
+
+	</form>
+</div>
+<br>	
+<span id="ResponseDisplay"></span>
+
+</body>
+</html>

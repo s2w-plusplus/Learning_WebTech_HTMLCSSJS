@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>
+function findSumAvg(n1){
+					var sum=0;
+					for(var i=1;i<=n1;i++)
+						{
+						 sum=sum+parseInt(prompt("Give Arg. "+i));
+						}	
+					document.write("The Sum is:<h3>"+sum+"</h3> And the Average is:<h3>"+(sum/n1)+"</h3>"	);
+					 }  
+</script>    
+</head>
+
+
+<body>
+<script>
+ var n1=parseInt(prompt("Enter the number of parameters you want to pass\n( Preferably less than 10 )"));
+ if (n1<10) findSumAvg(n1);
+</script>
+</body>
+
+
+
+<html>

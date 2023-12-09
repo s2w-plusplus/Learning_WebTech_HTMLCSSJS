@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+function clearDArea()
+					{
+					document.getElementById("displayArea").value="";
+					}
+function createTable()
+					{
+					i=document.getElementById("Q24num1").value;
+					j=document.getElementById("Q24num2").value;
+					k=document.getElementById("Q24num3").value;
+					
+					for(i;i<=j;i++)
+						{
+						document.getElementById("displayArea").value+= i+" times "+k+" = "+(i*k)+"\n";
+						}
+					}
+
+
+
+</script>
+</head>
+
+
+<body>
+
+<br><br>
+<div style="text-align:center">
+<form onsubmit="return false">
+<label style="margin-left:20px" for="Q24num1">Start from:<input type="number" id="Q24num1" name="Q24num1"></label>
+<label style="margin-left:20px" for="Q24num2">End at:<input type="number" id="Q24num2" name="Q24num2"></label>
+<label style="margin-left:20px;" for="Q24num3">Multiply By:<input type="number" id="Q24num3" name="Q24num3"></label><br>
+
+<input style="margin-top:40px" type="submit" value="Times Table" onclick="createTable()"><br>
+<input style="margin:20px" type="reset" value="Reset" onclick="clearDArea()">
+</form>
+
+<textarea style="width:80%;height:100px;resize:none;" id="displayArea" name="displayArea" placeholder="The Table is created here"></textarea>
+
+</div>
+
+
+</body>
+
+
+
+
+</html>

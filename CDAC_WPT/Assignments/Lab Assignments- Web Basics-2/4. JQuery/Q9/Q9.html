@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<style>
+	
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+	
+	<ul>
+		<li id="appl">Apple</li>
+		<li id="kw">Kiwi</li>
+		<li id="strwbry">Strawberry</li>
+	</ul>
+	<script>
+	
+		$(document).ready(function()
+		{
+			var x=$("li:eq(1)").text();
+			alert("Second list item is: "+x);
+	      /*
+		    $("#appl").click(function(){alert("Apple")});
+			$("#kw").click(function(){alert("Kiwi")});
+			$("#strwbry").click(function(){alert("Strawberry")});
+		  */	
+				
+		});
+	</script>
+	</body>
+</html>

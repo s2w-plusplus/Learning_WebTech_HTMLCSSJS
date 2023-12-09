@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<style>
+	
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+	
+	
+	<ul>
+		<li id="appl">Apple</li>
+		<li id="kw">Kiwi</li>
+		<li id="strwbry">Strawberry</li>
+	</ul>
+	<button id="action">Prepend</button>
+	<script>
+		$(document).ready(function()
+		{
+			$("#action").click(function()
+			{
+				$("li").each(function(index,element)
+				{
+				 var str=$(element).text();
+				 $(element).text(index+":"+str);
+				});	
+			});
+		});
+	</script>
+	</body>
+</html>

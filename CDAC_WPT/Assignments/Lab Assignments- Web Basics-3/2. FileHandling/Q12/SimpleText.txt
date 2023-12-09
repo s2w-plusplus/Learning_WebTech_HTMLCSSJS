@@ -1,0 +1,12 @@
+A full stack web developer is a person who can develop both client and server software.
+HTML is the standard markup language for Web pages.
+CSS describes how HTML elements are to be displayed.
+Responsive Web Design is about using HTML and CSS to automatically resize a website.
+JavaScript is the Programming Language for the Web.
+XML is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
+AJAX is a new technique for creating better, faster, and more interactive web applications with the help of XML, HTML, CSS, and Java Script.
+JSON is a lightweight format for storing and transporting data
+Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
+React is a free and open-source front-end JavaScript library for building user interfaces or UI components.
+Node.js is an open source server environment which allows you to run JavaScript on the server.

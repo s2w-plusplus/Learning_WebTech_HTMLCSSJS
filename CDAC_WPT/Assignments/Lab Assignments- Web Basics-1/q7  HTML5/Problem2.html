@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<style>
+			 div{
+			     background-color:#0055ff;
+				 color:white;
+				 font-size:10px
+				}
+	        table{
+				  border-collapse:separate;	
+				  border-spacing:10px;
+				  margin:0px 20px 0px 20px;	
+				  
+				  
+				 }
+			td:first-child{
+							text-align:right;
+							width:200px;
+							padding-right:5px;
+							padding-left:0px;
+							
+						  }
+			td:nth-child(3){
+							text-align:left;
+						   }
+						  
+			input{
+				font-size:10px;	
+				height:10px;
+				 }	 
+			fieldset{
+					 width:400px;
+					 height:auto;
+					 margin-left:auto;
+					 margin-right:auto;
+					 padding:10px 0px 10px 0px;
+					}	 
+			
+			
+	</style>
+</head>
+<body>
+
+
+
+
+<div>
+<br><br>
+<form>
+	<fieldset>
+	<legend>Registration Details</legend>
+		<table>
+			<tr>
+				<td>University:</td>
+				<td colspan="2"><input style="width:200px;margin-right:50px" type="text"></td>
+			</tr>
+			<tr>
+				<td>Institute:</td>
+				<td colspan="2"><input style="width:200px;margin-right:50px" type="text"></td>
+			</tr>
+			<tr>
+				<td>Branch:</td>
+				<td colspan="2">
+					<select style="width:130px;font-size:10px">
+						<option>Computer Science Engg"</option>
+						<option>Electronics & Telecommunication Engg</option>
+						<option>Mechanical Engg</option>
+						<option>Civil Eng</option>
+					</select>
+				</td>	
+			</tr>
+			<tr>
+				<td>Degree</td>
+				<td>
+					<select style="width:50px;font-size:10px">
+						<option>B.E.</option>
+						<option>B.Tech</option>
+						<option>M.E</option>
+						<option>M.Tech</option>
+						<option>M.S</option>
+					</select>
+				</td>
+				<td>
+					<label><input type="radio" name="Estat">Pursuing</label>
+					<label><input type="radio" name="Estat">Completed</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Average CPI:</td>
+				<td><label><input type="number" style="width:40px">upto</label></td>
+				<td><label><input type="number" style="width:40px">th Semester<label></td>
+			</tr>
+			<tr>
+				<td>Experience:</td>
+				<td colspan="2"><label><input style="width:50px" type="number">Years</label></td>
+			</tr>
+			<tr>
+				<td>Your Website or Blog:</td>
+				<td colspan="2"><input style="width:200px;" type="text"></td>
+			</tr>
+		</table>
+	</fieldset>
+</form>
+<br><br>	
+</div>
+
+</body>
+</html>

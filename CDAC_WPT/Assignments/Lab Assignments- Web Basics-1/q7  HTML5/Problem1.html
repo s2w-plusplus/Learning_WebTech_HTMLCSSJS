@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Appointment Scheduler</title>
+</head>
+
+<body>
+Q1.
+<br>
+<h2 style="padding-left:10px">Appointment Scheduler</h2>
+<form>
+	<fieldset style="width:300px;height:;margin:10px;padding:20px;">
+	<legend>Personal Information</legend>
+		<label >Name<br><input type="text" style="width:125;margin-bottom:20px;"></label><br>	  
+		<label >Telephone Number<br><input type="tel" pattern="[0-9]{10}" style="width:125;margin-bottom:20px;"></label><br>
+		<label >Email Address<br><input type="email" style="width:125;margin-bottom:20px;"></label><br>
+		<label >Date of Birth<br><input type="date" style="width:125;margin-bottom:20px;"></label><br>	
+	</fieldset>	
+	
+	<fieldset style="width:300px;height:;margin:10px;padding:20px;">
+	<legend>Appointment Request</legend>
+		<label >What is the reason for your visit?<br><input type="text" placeholder="Select or Type Reason" list="reason" style="width:150;margin-bottom:15px;"></label><br>
+		<datalist id="reason">
+			<option value="Outpatient Consultation">
+			<option value="Accidents & Emergency">
+			<option value="Inhouse patient">
+			<option value="Personal visit">
+		</datalist>
+		<label >Current pain level<br><input type="range" style="width:125;margin-bottom:15px;"></label><br>
+		<label >Preferred Date<br><input type="date" style="width:125;margin-bottom:15px;"></label><br>	 
+		<label >Preferred time<br><input type="time" style="width:125;margin-bottom:15px;"></label><br>	 
+	</fieldset>
+  <input type="submit" style="width:125;margin-left:10px;"><br>
+</form>
+
+</body>
+</html>
+

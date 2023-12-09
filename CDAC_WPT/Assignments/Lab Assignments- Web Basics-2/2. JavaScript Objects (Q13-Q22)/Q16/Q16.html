@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<script>
+
+function bingoCheck(a,b,c){
+							if( bingoNum.includes(a) && bingoNum.includes(b) && bingoNum.includes(c))
+							{
+							return (true);
+							}
+							else return (false);
+						  }
+</script>
+
+<head>
+
+</head>
+<body>
+
+
+<script>
+var bingoNum=[5,19,27,33,45];
+
+a=parseInt(prompt("Enter the first number"));
+b=parseInt(prompt("Enter the second number"));
+c=parseInt(prompt("Enter the third number"));
+
+if(bingoCheck(a,b,c)) alert("Bingo! You have Won...");
+else alert("ohh! Better luck next time.");
+</script>
+
+
+
+</body>
+</html>

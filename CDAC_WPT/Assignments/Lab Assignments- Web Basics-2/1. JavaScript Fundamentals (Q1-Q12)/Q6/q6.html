@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>
+function findMin(n1){
+					var min;
+					var x;
+					for(var i=1;i<=n1;i++)
+						{
+						 x=parseInt(prompt("Give Arg. "+i));
+                         if(i==1) min=x
+						 else if(x<min) min=x;
+						 else continue
+						}	
+					document.write("The min number is:<h3>"+min+"</h3>");
+					 }  
+</script>    
+</head>
+
+
+<body>
+<script>
+ var n1=parseInt(prompt("Enter the number of arguments you want inspected\n( Preferably less than 10 )"));
+ if (n1<10) findMin(n1);
+</script>
+</body>
+
+
+
+<html>

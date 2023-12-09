@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<script>
+ function dispFibbo(n){ 
+                      var value1=0;
+					  var value2=1;
+					  var value3;
+					  while(value1<=n)
+					  {
+					  document.write(value1+"  ");
+					  value3=value1+value2;
+					  value1=value2;
+					  value2=value3;
+					  
+					  }	
+
+					 
+					
+					}  
+</script>    
+</head>
+
+
+<body>
+<script>
+ 
+ var n=parseInt(prompt("Please Enter the ceiling of the Fibonacci series"));
+ dispFibbo(n);
+ 
+</script>
+</body>
+
+
+
+<html>

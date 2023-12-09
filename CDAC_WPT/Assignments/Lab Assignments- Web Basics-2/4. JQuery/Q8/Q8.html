@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<style>
+			
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+	<button>How?</button>	
+	<ul>
+		<li>How do I select an item using class or ID?</li>
+		<li>How do I select elements when I already have a DOM element?</li>
+		<li>How do I test whether an element has a particular class?</li>
+		<li>How do I test whether an element exists?</li>
+		<li>How do I determine the state of a toggled element?</li>
+		<li>How do I select an element by an ID that has characters used in CSS notation?</li>
+		<li>How do I disable/enable a form element?</li>
+		<li>How do I check/uncheck a checkbox input or radio button?</li>
+		<li>How do I get the text value of a selected option?</li>
+		<li>How do I replace text from the 3rd element of a list of 10 items?</li>
+		<li>How do I pull a native DOM element from a jQuery object?</li>
+	</ul>
+	<script>
+		var blockcode="<div><h1>JQuery Core</h1></div>";
+		$(document).ready(function(){
+			$("button").click(function(){
+				$(blockcode).appendTo($("body")); 
+				//$("button").hide();
+			});
+		});
+	</script>
+	</body>
+</html>

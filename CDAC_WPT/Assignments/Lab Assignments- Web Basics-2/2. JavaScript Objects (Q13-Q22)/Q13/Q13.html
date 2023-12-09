@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script src="myFunct.js"></script>    
+</head>
+<body>
+
+<script>
+
+var d = new Date(2020,1, 29, 13, 51, 30, 0);
+
+document.write("Today is "+days[d.getDay()]+", "+parseInt(d.getDate())+" "+months[d.getMonth()]+" "+parseInt(d.getFullYear())+", Welcome, and "+greet(d.getHours())+"<br>"); 
+document.write("Number of days left till the end of the year: "+ daysLeft( parseInt(d.getMonth()),parseInt(d.getDate()),parseInt(d.getFullYear()) )); 
+
+</script>
+
+</body>
+<html>

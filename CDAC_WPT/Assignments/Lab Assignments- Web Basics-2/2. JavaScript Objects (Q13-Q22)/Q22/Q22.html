@@ -1,0 +1,25 @@
+<html>
+<head>
+
+
+</head>
+<body>
+<script>
+            var websites = ["www.google.com","rgpv.ac.in","www.amazon.in","facebook.com","www.makemytrip.com","godaddy.com","www.acts.com"];
+            document.write("<h2>Predefined Lists of Websites:</h2><br>");
+            for(str of websites) document.write(str+"<br>"); 
+  
+			document.write("<br><h2>The websites starting with 'www' are:</h2><br>");
+            var counter=0;
+            for(str of websites)
+				{
+				 if(str.match(/www/g))
+					{
+                      document.write(str+"<br>");
+                      counter++;
+					}
+				}
+            document.write("<br><h3>The total matches are: "+counter+"<h3>");
+</script>
+</body>
+</html>

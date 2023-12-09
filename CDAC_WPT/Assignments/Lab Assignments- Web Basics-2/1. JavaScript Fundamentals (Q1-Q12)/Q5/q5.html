@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<script>
+ function splitDigit(n1){ 
+						var sum=0;
+						var i;
+						for(i=0;i<5;i++)
+							{
+							sum=sum+(n1%10);
+							n1=parseInt(n1/10);
+							}
+                        document.write("<h3>The Sum Of Digits is: "+sum+"</h3>")
+					  }  
+</script>    
+</head>
+
+
+<body>
+<script>
+ 
+ var n1=parseInt(prompt("Enter a five digit number"));
+ splitDigit(n1);
+ 
+</script>
+</body>
+
+
+
+<html>

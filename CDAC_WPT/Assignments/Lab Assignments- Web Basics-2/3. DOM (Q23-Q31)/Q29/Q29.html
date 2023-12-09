@@ -1,0 +1,62 @@
+<html>
+<head>
+	<script src="Q29.js" ></script>
+	<link rel="stylesheet" href="Q29.css">
+</head>
+<body>
+
+<div class="div1">
+	<form onsubmit="return false">
+			<h2>Enter loan Information:</h2>
+		<table>		
+			<tr>
+				<td>1)Amount of the loan(any currency):</td>
+				<td>
+					<input type="number" name="29num1" id="29num1" min="0" max="1500000">	
+				</td>
+			</tr>
+			<tr>
+				<td>2)Anual percentage rate of interest:</td>
+				<td>
+					<input type="number" name="29num2" id="29num2" min="0" max="100">	
+				</td>
+			</tr>
+			<tr>
+				<td>3)Repayment period in years:</td>
+				<td>
+					<input type="number" name="29num3" id="29num3">	
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" name="29submit" id="29submit" value="Compute" onclick="myCalc()">	
+				</td>
+			</tr>
+		</table>		
+	
+		<h2>Payment Information:</h2>	
+		<table>		
+			<tr>
+				<td>4)Your monthly payment will be:</td>
+				<td>
+					<input type="text" name="29text4" id="29text4" disabled>	
+				</td>
+			</tr>
+			<tr>
+				<td>5)Your total payment will be:</td>
+				<td>
+					<input type="text" name="29text5" id="29text5" disabled>	
+				</td>
+			</tr>
+			<tr>
+				<td>6)Your total interest payments will be:</td>
+				<td>
+					<input type="text" name="29text6" id="29text6" disabled>	
+				</td>
+			</tr>
+		</table>
+	</form>	
+</div>
+
+</body>
+</html>

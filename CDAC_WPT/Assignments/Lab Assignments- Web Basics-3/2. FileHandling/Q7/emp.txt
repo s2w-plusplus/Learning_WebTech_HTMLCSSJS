@@ -1,0 +1,10 @@
+1001:Charlie:Sales:23000
+1002:Sheldon:Accounts:20000
+1003:Barney:TechSupport:40000
+1004:Monika:HumanResource:15000
+1005:Phoebe:Management:60000
+1006:Chandler:ProductDesign:80000
+1007:Joey:HumanResource:15000
+1008:Ross:CustomerSupport:10000
+1009:Rachel:TechSupport:40000
+1010:Penny:Executive:150000

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<script>
+
+function myFunction(pssedstr){
+								var sepchar=pssedstr.split("");
+								var revarr=sepchar.reverse();
+								pssedstr=revarr.join("");
+								return (pssedstr);
+							 }
+</script>
+</head>
+
+
+<body>
+
+<script>
+
+
+var str=prompt("Enter the 5 Strings separated by '/' ");
+var arrofstr=str.split("/");
+var mappedarray=arrofstr.map( myFunction );
+var sortedarray=mappedarray.sort();
+
+document.write("The original 5 words: "+arrofstr+"<br>");
+document.write("The modified 5 words: "+sortedarray);
+
+ 
+</script>
+</body>
+
+
+
+
+</html>
